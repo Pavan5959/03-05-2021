@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>List Group</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+  </head>
+  <body>
+      <h4 class="text-primary">Using List Group</h4>
+      <ul class="list-group">
+          <li class="list-group-item">HOME</li>
+          <li class="list-group-item">PICTURES</li>
+          <li class="list-group-item">MUSIC</li>
+          <li class="list-group-item">VIDEO</li>
+      </ul><br>
+     <h4 class="text-primary">Creating List Group with linked item</h4>
+      <div class="list-group">
+          <a class="list-group-item" href="#">HOME</a>
+          <a class="list-group-item" href="#">PICTURES</a>
+          <a class="list-group-item" href="#">MUSIC</a>
+          <a class="list-group-item" href="#">VIDEO</a>
+      </div><br>
+      <h4 class="text-primary">using action we can see the change in list </h4>
+      <div class="list-group">
+        <a class="list-group-item-action" href="#">HOME</a>
+        <a class="list-group-item-action" href="#">PICTURES</a>
+        <a class="list-group-item" href="#">MUSIC</a>
+        <a class="list-group-item" href="#">VIDEO</a>
+    </div><br>
+    <h4 class="text-success">Giving Background color to list-group</h4>
+    <div class="list-group">
+        <a class="list-group-item-primary" href="#">HOME</a>
+        <a class="list-group-item-success " href="#">PICTURES</a>
+        <a class="list-group-item-info" href="#">MUSIC</a>
+        <a class="list-group-item-danger" href="#">VIDEO</a>
+    </div><br>
+    <h4 class="text-warning">Adding the Active to list-item-group</h4>
+    <div class="list-group">
+        <a class="list-group-item active" href="#">HOME</a>
+        <a class="list-group-item" href="#">PICTURES</a>
+        <a class="list-group-item active" href="#">MUSIC</a>
+        <a class="list-group-item" href="#">VIDEO</a>
+    </div><br>
+    <!--Have to add font awesome-->
+    <h3 class="text-warning">Adding Icons to the Linked List groups</h3>
+    <div class="list-group">
+        <a class="list-group-item" href="#"><i class="fa fa-home"></i>HOME</a>
+        <a class="list-group-item" href="#"><i class="fa fa-camera"></i>PICTURES</a>
+        <a class="list-group-item" href="#"><i class="fa fa-music"></i>MUSIC</a>
+        <a class="list-group-item" href="#"><i class="fa fa-film"></i>VIDEO</a>
+    </div><br>
+    <h4 class="text-dark">Adding badges</h4>
+    <div class="list-group">
+        <a class="list-group-item" href="#"><i class="fa fa-home"></i>HOME<span class="badge badge-pill badge-primary">50</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-camera"></i>PICTURES<span class="badge badge-pill badge-primary">25</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-music"></i>MUSIC<span class="badge badge-pill badge-primary">500</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-film"></i>VIDEO<span class="badge badge-pill badge-primary">250</span></a>
+    </div><br>
+    <h4 class="text-dark">Getting the badges to the right or end of the line</h4>
+    <div class="list-group">
+        <a class="list-group-item" href="#"><i class="fa fa-home"></i>HOME<span class="badge badge-pill badge-primary float-right">50</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-camera"></i>PICTURES<span class="badge badge-pill badge-primary float-right">25</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-music"></i>MUSIC<span class="badge badge-pill badge-primary float-right">500</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-film"></i>VIDEO<span class="badge badge-pill badge-primary float-right">250</span></a>
+    </div><br>
+    <h4 class="text-danger">Removing some borders</h4>
+    <div class="list-group list-group-flush">
+        <a class="list-group-item" href="#"><i class="fa fa-home"></i>HOME<span class="badge badge-pill badge-primary float-right">50</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-camera"></i>PICTURES<span class="badge badge-pill badge-primary float-right">25</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-music"></i>MUSIC<span class="badge badge-pill badge-primary float-right">500</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-film"></i>VIDEO<span class="badge badge-pill badge-primary float-right">250</span></a>
+    </div><br>
+    <h4 class="text-danger">side by side</h4>
+    <div class="list-group list-group-horizontal">
+        <a class="list-group-item" href="#"><i class="fa fa-home"></i>HOME<span class="badge badge-pill badge-primary float-right">50</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-camera"></i>PICTURES<span class="badge badge-pill badge-primary float-right">25</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-music"></i>MUSIC<span class="badge badge-pill badge-primary float-right">500</span></a>
+        <a class="list-group-item" href="#"><i class="fa fa-film"></i>VIDEO<span class="badge badge-pill badge-primary float-right">250</span></a>
+    </div><br>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
